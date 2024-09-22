@@ -1,0 +1,52 @@
+/* App styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.response-section {
+  display: flex;
+  gap: 8px;
+}
+
+.response-title {
+  font-weight: bold;
+}
+.response-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* JsonInput styles */
+.json-input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.json-input-textarea {
+  border: 1px solid #718096;
+  padding: 8px;
+}
+
+.json-input-button {
+  background-color: #24a0ed;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.json-input-error {
+  color: red;
+}
+
+/* Dropdown styles */
+.dropdown-select {
+  margin-top: 24px;
+}
